@@ -7,10 +7,6 @@ FetchContent_Declare(
 
 FetchContent_MakeAvailable(googletest)
 
-# 寻找gtest包
-find_package(GTest REQUIRED)
-include_directories(${GTEST_INCLUDE_DIRS})
-
 # 包含项目的头文件目录
 include_directories(${CMAKE_SOURCE_DIR}/include)
 

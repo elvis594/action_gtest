@@ -14,13 +14,13 @@ include_directories(${CMAKE_SOURCE_DIR}/include)
 # 添加测试可执行文件
 add_executable(test_add test_add.cpp)
 # 链接gtest和你的库
-target_link_libraries(test_add ${GTEST_LIBRARIES} pthread add gtest_main)
+target_link_libraries(test_add ${GTEST_LIBRARIES} pthread add gtest)
 
 gtest_discover_tests(test_add)
 
 add_executable(test_hello test_hello.cpp)
 # 链接gtest和你的库
-target_link_libraries(test_hello ${GTEST_LIBRARIES} pthread add gtest_main)
+target_link_libraries(test_hello ${GTEST_LIBRARIES} pthread add gtest)
 gtest_discover_tests(test_hello)
 
 

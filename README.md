@@ -1,3 +1,3 @@
 
 
-[![codecov](https://codecov.io/github/Xtinc/matrix/branch/master/graph/badge.svg?token=VVGCGPHZ2W)](https://codecov.io/github/Xtinc/matrix)
+[![codecov](https://codecov.io/gh/elvis594/action_gtest/graph/badge.svg?token=IHEM9XN2Y7)](https://codecov.io/gh/elvis594/action_gtest)

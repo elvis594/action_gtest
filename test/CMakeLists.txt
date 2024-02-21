@@ -6,6 +6,7 @@ FetchContent_Declare(
 )
 
 FetchContent_MakeAvailable(googletest)
+include(GoogleTest)
 
 # 包含项目的头文件目录
 include_directories(${CMAKE_SOURCE_DIR}/include)

@@ -1,11 +1,5 @@
-include(FetchContent)
-FetchContent_Declare(
-        googletest
-        GIT_REPOSITORY https://github.com/google/googletest.git
-        GIT_TAG v1.14.0
-)
 
-FetchContent_MakeAvailable(googletest)
+add_subdirectory(${PROJECT_SOURCE_DIR}/third_parthy/googletest ${PROJECT_BINARY_DIR}/googletest_build)
 include(GoogleTest)
 
 # 包含项目的头文件目录

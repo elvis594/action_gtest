@@ -17,7 +17,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-
+        with:
+          submodules: 'true'  # Fetch submodules
+          
       - name: install lcov
         #install lcov
         run: sudo apt install lcov
